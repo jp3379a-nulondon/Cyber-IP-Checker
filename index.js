@@ -7,7 +7,7 @@ const outputBox = document.getElementById("ip-output-field");
 const api_base =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? "http://127.0.0.1:5000"
-    : "https://test-14rh.onrender.com";
+    : "https://cyber-ip-checker.onrender.com";
     
 // Removes whitespace from the IP input.
 function trimIpAddress(ipAddress) {
